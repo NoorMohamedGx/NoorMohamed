@@ -1,0 +1,31 @@
+img {
+  border-radius: 75px;
+  margin-top: 20px;
+}
+h2 {
+  font-size: 18px;
+}
+body {
+  background: linear-gradient(to right, #b8103a, #1e7896);
+  font-family: Trebuchet MS;
+  color: white;
+  text-align: center;
+}
+a {
+  background-color: rgba(0, 0, 0, 0.815);
+  font-size: 20px;
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.5s ease;
+}
+a:hover {
+  background-color: rgba(61, 161, 194, 0.466);
+  color: rgb(255, 255, 255);
+  transform: scale(1.05);
+}
